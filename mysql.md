@@ -8,3 +8,8 @@ mysql binlog:
 
 The Slow Query Log:
     
+    
+    show variables like 'long_query_time';
+    
+    SET GLOBAL general_log = 'OFF';
+    SET GLOBAL slow_query_log = 'OFF';
