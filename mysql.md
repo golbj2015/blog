@@ -13,3 +13,6 @@ The Slow Query Log:
     
     SET GLOBAL general_log = 'OFF';
     SET GLOBAL slow_query_log = 'OFF';
+
+
+Running Multiple MySQL Instances on One Machine
