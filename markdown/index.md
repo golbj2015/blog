@@ -3,6 +3,8 @@
 
 ** 此文转载自[Te_Lee](http://www.jianshu.com/p/1e402922ee32)， 只用于个人学习使用。**
 
+[TOC]
+
 ### 导语：
 > Markdown是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的 HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。
 
@@ -11,8 +13,9 @@
 <center>[Ulysses for Mac](http://www.ulyssesapp.com/)</center>
 
 
-### 一，认识 Markdown
-在刚才的导语里提到，Markdown 是一种用来写作的轻量级 ***「标记语言」***，它用简洁的语法代替排版，而不像一般我们用的字处理软件 Word 或 Pages 有大量的排版、字体设置。它使我们专心于码字，用「标记」语法，来代替常见的排版格式。例如此文从内容到格式，甚至插图，键盘就可以通通搞定了。目前来看，支持 Markdown 语法的编辑器有很多，包括很多网站（例如简书）也支持了 Markdown 的文字录入。Markdown 从写作到完成，导出格式随心所欲，你可以导出 HTML 格式的文件用来网站发布，也可以十分方便的导出 PDF 格式，这种格式写出的简历更能得到 HR 的好感。甚至可以利用 CloudApp 这种云服务工具直接上传至网页用来分享你的文章，全球最大的轻博客平台 Tumblr，也支持 Mou 这类 Markdown 工具的直接上传。
+### 一，<span id="title_first">认识 Markdown</span>
+
+  在刚才的导语里提到，Markdown 是一种用来写作的轻量级 ***「标记语言」***，它用简洁的语法代替排版，而不像一般我们用的字处理软件 Word 或 Pages 有大量的排版、字体设置。它使我们专心于码字，用「标记」语法，来代替常见的排版格式。例如此文从内容到格式，甚至插图，键盘就可以通通搞定了。目前来看，支持 Markdown 语法的编辑器有很多，包括很多网站（例如简书）也支持了 Markdown 的文字录入。Markdown 从写作到完成，导出格式随心所欲，你可以导出 HTML 格式的文件用来网站发布，也可以十分方便的导出 PDF 格式，这种格式写出的简历更能得到 HR 的好感。甚至可以利用 CloudApp 这种云服务工具直接上传至网页用来分享你的文章，全球最大的轻博客平台 Tumblr，也支持 Mou 这类 Markdown 工具的直接上传。
 
 #### Markdown 官方文档
 >这里可以看到官方的 Markdown 语法规则文档，当然，** 后文我也会用自己的方式阐述这些语法的具体用法 **。
@@ -38,13 +41,13 @@
 
 <center>[flowchart.js on Github（使用 Markdown 绘制流程图）](http://#)</center>
 
-
+[Back](#markdown)
 #### 我该用什么工具？
 
 在 Mac OS X 上，我强烈建议你用 [Mou](http://25.io/mou/) 这款免费且十分好用的 Markdown 编辑器
 
 
-### 二，Markdown 语法的简要规则
+### 二，<span id="title_sec">Markdown 语法的简要规则</span>
 #### 标题
 ![标题](http://ww1.sinaimg.cn/large/6aee7dbbgw1effeaclhiyj20eh09cwez.jpg)
 
@@ -56,6 +59,7 @@
 
 以此类推，总共六级标题，建议在井号后加一个空格，这是最标准的 Markdown 语法。
 
+[Back](#markdown)
 ####列表
  熟悉 HTML 的同学肯定知道有序列表与无序列表的区别，在 Markdown 下，列表的显示只需要在文字前加上 - 或 * 即可变为无序列表，有序列表则直接在文字前加1. 2. 3. 符号要和文字之间加上一个字符的空格。
 
@@ -67,6 +71,7 @@
 
 只需要在文本前加入 > 这种尖括号（大于号）即可
 
+
 #### 图片与链接
 
 插入链接与插入图片的语法很像，区别在一个 !号
@@ -74,6 +79,8 @@
 图片为：\!\[\]\(\)\{ImgCap\}\{/ImgCap\}
 
 链接为：\[\]\(\)
+
+[Back](#markdown)
 
 #### 粗体与斜体
 
@@ -99,7 +106,8 @@ Markdown 的粗体和斜体也非常简单，用两个 * 包含一段文本就�
 
 ---
 
-### 三，相关推荐:
+[Back](#markdown)
+### 三，<span id="title_third">相关推荐</span>:
 
 #### 相关文章阅读：
 
@@ -107,13 +115,13 @@ Markdown 的粗体和斜体也非常简单，用两个 * 包含一段文本就�
 * [Markdown写作浅谈](http://www.yangzhiping.com/tech/r-markdown-knitr.html)
 * [Markdown 语法基础中文版](http://wowubuntu.com/markdown/)
 
-#### 工具：
+#### 工具：            
 
 * Mou
 * Sublime Text 插件：MarkdownEditing 
    MarkdownEditing是一个Sublime Text的Markdown插件。提供了一种合适的Markdown着色方案(light 与 dark)，包含强大的语法高亮，和实用的Markdown编辑功能。支持3种风格：Standard Markdown, GitHub flavored Markdown, MultiMarkdown。
 
-* Sublime Text 插件：Markdown Preview
+* Sublime Text 插件：Markdown Preview          
 
 
-
+[Back](#markdown)
