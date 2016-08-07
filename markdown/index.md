@@ -1,7 +1,7 @@
 # Markdown—学习手册
-  > 2016-08-06 by Gol bj.
+  >  by Gol 2016-08-06 bj.
 
-** 此文转载自[Te_Lee](http://www.jianshu.com/p/1e402922ee32)， 只用于个人学习使用。**
+**此文转载自[Te_Lee](http://www.jianshu.com/p/1e402922ee32)， 只用于个人学习使用.**
 
 [TOC]
 
