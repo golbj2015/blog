@@ -1,0 +1,31 @@
+# test try/except raise
+def fetcher(obj,index):
+    try:
+        return obj[index]
+    except IndexError:
+        print "out index error"
+        raise IndexError
+
+#data = "abc"
+#fetcher(data,3)
+
+#User-definded exception
+class Bad(Exception):
+    pass
+
+def doomed():
+   # raise Bad()
+   pass
+
+try:
+    doomed()
+except Bad:
+    print "bad excetion"
+
+#try/finally
+try:
+    print "goto finally"
+finally:
+    print "finally over"
+
+

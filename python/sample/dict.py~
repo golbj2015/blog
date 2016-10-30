@@ -3,7 +3,23 @@
 
 d = {'Michael': 95, 'Bob': 75, 'Tracy': 85}
 
-# 计算平均数值
+#查看所有的key
+print tuple(d.keys())
+
+# update 
+d['Adam'] = 67
+
+#判断key是否存在
+print 'Thomas' in d        # False
+print d.get('Thomas', -1)  # -1
+
+#删除一个key
+print d.pop('Bob')         # 75
+ 
+#遍历
+for k in d:
+	print k,d[k]
+
 def getAverage(d):
     total = len(d)
     sumValue = 0
@@ -21,9 +37,6 @@ print "average :%-06.2f"% getAverage(d)
 def getMaxMin(d):
     max = 0
     min = 0
-    for k in d:
-        print k
-
     for k in d:
         #init min value
         if min == 0 :
